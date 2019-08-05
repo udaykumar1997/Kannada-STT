@@ -1,8 +1,6 @@
 
-task one {
-  doLast{
-    compile 'com.google.cloud:google-cloud-bigquery:1.84.0'
-  }
+dependencies {
+  compile 'com.google.cloud:google-cloud-bigquery:1.84.0'
 }
 
 task upper {

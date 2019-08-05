@@ -1,4 +1,4 @@
-# Kannada Speect to Text
+# Kannada Speech to Text
 
 
 ### License
