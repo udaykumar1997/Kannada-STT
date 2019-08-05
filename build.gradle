@@ -1,0 +1,43 @@
+
+task one {
+  doLast{
+    compile 'com.google.cloud:google-cloud-bigquery:1.84.0'
+  }
+}
+
+task upper {
+  doLast{
+   String expString = 'TUTORIALS point'
+   println "Original: " + expString
+   println "Upper case: " + expString.toUpperCase()
+ }
+}
+
+task hello {
+   doLast {
+      println 'tutorialspoint'
+   }
+}
+
+task helloo {
+  doLast{
+    println 'tutorialspoint'
+  }
+}
+
+task groovyJDK {
+  doLast{
+     String myName = "Marc";
+     myName.each() {
+        println "${it}"
+     };
+  }
+}
+
+task count {
+  doLast{
+       4.times {
+          print "$it "
+       }
+  }
+}
